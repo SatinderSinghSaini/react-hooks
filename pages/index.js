@@ -5,7 +5,7 @@ const InputElement = () =>{
     return <div>
         <input onChange={(e)=>setInputText(e.target.value)}
     placeholder="Type Some Text"/><br/>
-    {inputText}
+    {inputText}<br/>
     </div>
 }
 
